@@ -6,7 +6,6 @@ html, body {
   text-align: center;
   background-color: #1a1a1a;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .smart-player-embed-container {
@@ -39,4 +38,13 @@ html, body {
    .smart-player-embed-iframe {
      max-height: 100vh;
    }
+}
+
+.container {
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 50%;
 }
